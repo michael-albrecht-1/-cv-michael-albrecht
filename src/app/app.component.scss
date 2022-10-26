@@ -1,0 +1,21 @@
+.cv {
+  width: 100vw;
+  .header {
+    display: flex;
+    background-color: blueviolet;
+    &-title {
+    }
+    &-contact {
+    }
+  }
+  .main {
+    display: flex;
+    width: 100vw;
+    &-left {
+      background-color: pink;
+    }
+    &-right {
+      background-color: blue;
+    }
+  }
+}
