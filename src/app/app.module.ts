@@ -5,9 +5,10 @@ import { CardModule } from 'primeng/card';
 
 import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, TimelineComponent],
+  declarations: [AppComponent, TimelineComponent, ContactComponent],
   imports: [BrowserModule, TimelineModule, CardModule],
   providers: [],
   bootstrap: [AppComponent],

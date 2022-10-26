@@ -2,20 +2,40 @@
   width: 100vw;
   .header {
     display: flex;
-    background-color: blueviolet;
+    width: 100vw;
+    background-color: var(--secondary);
+    color: var(--light);
     &-title {
+      flex: 1;
+      padding: 2rem;
+      h1 {
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+      }
+      h2 {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 1.1rem;
+      }
     }
     &-contact {
+      padding: 2rem;
+      width: 25vw;
     }
   }
   .main {
     display: flex;
     width: 100vw;
     &-left {
-      background-color: pink;
+      padding: 2rem;
+      flex: 1;
+      background-color: var(--light);
     }
     &-right {
-      background-color: blue;
+      padding: 2rem;
+      color: var(--light);
+      width: 25vw;
+      background-color: var(--primary);
     }
   }
 }
