@@ -1,38 +1,86 @@
-.custom-marker {
+.timeline {
   display: flex;
-  width: 2rem;
-  height: 2rem;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  border-radius: 50%;
-  z-index: 1;
-}
+  height: 100%;
+  width: 100%;
 
-::ng-deep {
-  .p-timeline-event-content,
-  .p-timeline-event-opposite {
-    line-height: 1;
+  h3 {
+    color: var(--primary);
+    margin-bottom: 2.5rem;
   }
-}
 
-@media screen and (max-width: 960px) {
+  .event {
+    &-title {
+      color: rgb(73, 80, 87);
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 6px;
+
+      &-1 {
+        font-weight: 800;
+      }
+      &-2 {
+        font-weight: 400;
+      }
+      &-3 {
+        font-weight: 400;
+        font-style: italic;
+      }
+    }
+    &-subtitle {
+      color: #6c757d77;
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 2 00;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .custom-marker {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .p-timeline-event-content,
+  div.p-timeline-event-content {
+    width: 15rem;
+  }
+  p-timeline-event-separator {
+    width: 2px !important;
+  }
+
   ::ng-deep {
-    .customized-timeline {
-      .p-timeline-event:nth-child(even) {
-        flex-direction: row !important;
+    .p-timeline-event-content,
+    .p-timeline-event-opposite {
+      line-height: 1;
+    }
+  }
 
-        .p-timeline-event-content {
-          text-align: left !important;
+  @media screen and (max-width: 960px) {
+    ::ng-deep {
+      .customized-timeline {
+        .p-timeline-event:nth-child(even) {
+          flex-direction: row !important;
+
+          .p-timeline-event-content {
+            text-align: left !important;
+          }
         }
-      }
 
-      .p-timeline-event-opposite {
-        flex: 0;
-      }
+        .p-timeline-event-opposite {
+          flex: 0;
+        }
 
-      .p-card {
-        margin-top: 1rem;
+        .p-card {
+          margin-top: 1rem;
+        }
       }
     }
   }

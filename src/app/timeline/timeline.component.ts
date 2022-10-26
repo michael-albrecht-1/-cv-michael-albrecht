@@ -1,40 +1,58 @@
 import { Component } from '@angular/core';
 import { PrimeIcons } from 'primeng/api';
 
+const ICON = {
+  school: {
+    icon: PrimeIcons.BOOK,
+    color: 'var(--primary)',
+  },
+  work: {
+    icon: PrimeIcons.BRIEFCASE,
+    color: 'var(--secondary)',
+  },
+};
+
+type Event = {
+  titre1: string;
+  titre2?: string;
+  titre3?: string;
+  date?: string;
+  icon?: string;
+  color?: string;
+};
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.scss'],
 })
 export class TimelineComponent {
-  events1!: any[];
+  events!: Event[];
 
   ngOnInit() {
-    this.events1 = [
+    this.events = [
       {
-        status: 'Ordered',
-        date: '15/10/2020 10:30',
-        icon: PrimeIcons.SHOPPING_CART,
-        color: '#9C27B0',
-        image: 'game-controller.jpg',
+        titre1: 'Odéis',
+        titre2: 'Vannes',
+        titre3: 'Développeur Web',
+        date: 'Depuis juin  2021',
+        icon: ICON.work.icon,
+        color: ICON.work.color,
       },
       {
-        status: 'Processing',
-        date: '15/10/2020 14:00',
-        icon: PrimeIcons.COG,
-        color: '#673AB7',
+        titre1: 'École O’Clock',
+        titre2: 'remote',
+        titre3: 'Développeur Web',
+        date: '2020 (6 mois)',
+        icon: ICON.school.icon,
+        color: ICON.school.color,
       },
       {
-        status: 'Shipped',
-        date: '15/10/2020 16:15',
-        icon: PrimeIcons.ENVELOPE,
-        color: '#FF9800',
-      },
-      {
-        status: 'Delivered',
-        date: '16/10/2020 10:00',
-        icon: PrimeIcons.CHECK,
-        color: '#607D8B',
+        titre1: 'Odéis',
+        titre2: 'Vannes',
+        titre3: 'Technicien Support',
+        date: '2016 - 2021',
+        icon: ICON.work.icon,
+        color: ICON.work.color,
       },
     ];
   }

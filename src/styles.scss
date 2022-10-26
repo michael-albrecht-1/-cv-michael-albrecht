@@ -1,11 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   padding: 0;
   margin: 0;
   font-family: "Merriweather Sans", sans-serif;
-  //   font -family: "Roboto", sans-serif;
 }
 
 :root {
@@ -23,4 +22,28 @@ body {
   --badge5: #ef7f22;
   --badge6: #20c997;
   --badge7: #0dcaf0;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+h2 {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+h3 {
+  margin-top: 0;
+  font-weight: 8 00;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.p-timeline-event-content,
+div.p-timeline-event-content {
+  width: 37rem;
+}
+p-timeline-event-separator {
+  width: 2px !important;
 }
