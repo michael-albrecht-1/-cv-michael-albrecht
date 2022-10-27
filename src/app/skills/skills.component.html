@@ -3,13 +3,12 @@
   <div class="skills-hard">
     <h4>Techniques</h4>
     <ul>
-      <li>JS - 3/5</li>
-      <li>HTML/CSS - 4/5</li>
-      <li>Angular - 4/5</li>
-      <li>RXJS - 4/5</li>
-      <li>Clean archi - 3/5</li>
-      <li>DDD - 2/5</li>
-      <li>Git - 4/5</li>
+      <li *ngFor="let skill of skills">
+        {{ skill.label }}
+        <app-skill-progression
+          [percent]="skill.percent"
+        ></app-skill-progression>
+      </li>
     </ul>
   </div>
   <div class="skills-soft">

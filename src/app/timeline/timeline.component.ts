@@ -49,7 +49,8 @@ export class TimelineComponent {
         date: '2020 (6 mois)',
         icon: ICON.school.icon,
         color: ICON.school.color,
-        description: 'bla bla formation',
+        description:
+          'Formation en téléprésentiel portant sur le développement front-end et back-end. Spécialité React.',
       },
       {
         titre1: 'Odéis',

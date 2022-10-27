@@ -2,12 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TimelineModule } from 'primeng/timeline';
 import { CardModule } from 'primeng/card';
+import { ProgressBarModule } from 'primeng/progressbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { SkillProgressionComponent } from './skill-progression/skill-progression.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +19,15 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     ContactComponent,
     SkillsComponent,
     HobbiesComponent,
+    SkillProgressionComponent,
   ],
-  imports: [BrowserModule, TimelineModule, CardModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    TimelineModule,
+    CardModule,
+    ProgressBarModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

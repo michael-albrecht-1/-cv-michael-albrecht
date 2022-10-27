@@ -5,6 +5,12 @@
     padding-left: 1.7rem;
   }
 
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   &-hard {
   }
 
