@@ -40,9 +40,8 @@ h3 {
   text-transform: uppercase;
 }
 
-.p-timeline-event-content,
-div.p-timeline-event-content {
-  width: 37rem;
+p-timeline {
+  width: 100%;
 }
 p-timeline-event-separator {
   width: 2px !important;
