@@ -28,19 +28,45 @@ h1 {
   font-weight: 600;
   margin-bottom: 0.2rem;
 }
+
 h2 {
   margin-top: 0;
   font-weight: 400;
   font-size: 1.1rem;
 }
+
 h3 {
   margin-top: 0;
   font-weight: 8 00;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   display: flex;
+  align-items: center;
   .pi {
     margin-right: 0.6rem;
+    font-size: 1rem;
+  }
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 8 00;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: 1.7rem;
+  margin-top: 0.5rem;
+  li {
+    list-style: none;
+    font-size: 0.8rem;
+
+    line-height: 0.8rem;
+    margin-bottom: 0.6rem;
+    font-weight: 300;
   }
 }
 
