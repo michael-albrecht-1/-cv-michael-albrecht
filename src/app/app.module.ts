@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TimelineModule } from 'primeng/timeline';
 import { CardModule } from 'primeng/card';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
@@ -21,13 +19,7 @@ import { SkillProgressionComponent } from './skill-progression/skill-progression
     HobbiesComponent,
     SkillProgressionComponent,
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    TimelineModule,
-    CardModule,
-    ProgressBarModule,
-  ],
+  imports: [BrowserModule, TimelineModule, CardModule],
   providers: [],
   bootstrap: [AppComponent],
 })
