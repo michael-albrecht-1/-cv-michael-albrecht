@@ -14,7 +14,7 @@
       </span>
     </ng-template>
     <ng-template pTemplate="content" let-event>
-      <p-card [subheader]="event.date">
+      <p-card>
         <ng-template pTemplate="header">
           <div class="event-title">
             <span class="event-title-1"> {{ event.titre1 }}, </span>
@@ -27,7 +27,12 @@
             {{ event.date }}
           </div>
         </ng-template>
-        <p>description</p>
+        <ng-template pTemplate="body" *ngIf="event.description || event.skills">
+          <p *ngIf="event.description" class="event-body">
+            {{ event.description }}
+          </p>
+          <p *ngIf="event.skills" class="event-skills">{{ event.skills }}</p>
+        </ng-template>
       </p-card>
     </ng-template>
   </p-timeline>

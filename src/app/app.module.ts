@@ -6,9 +6,17 @@ import { CardModule } from 'primeng/card';
 import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
+import { SkillsComponent } from './skills/skills.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
-  declarations: [AppComponent, TimelineComponent, ContactComponent],
+  declarations: [
+    AppComponent,
+    TimelineComponent,
+    ContactComponent,
+    SkillsComponent,
+    HobbiesComponent,
+  ],
   imports: [BrowserModule, TimelineModule, CardModule],
   providers: [],
   bootstrap: [AppComponent],

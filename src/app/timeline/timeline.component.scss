@@ -35,6 +35,17 @@
       font-weight: 2 00;
       margin-bottom: 0.5rem;
     }
+    &-body {
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 2 00;
+    }
+    &-skills {
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 2 00;
+      color: var(--primary);
+    }
   }
 
   .custom-marker {

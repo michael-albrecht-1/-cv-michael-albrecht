@@ -19,6 +19,8 @@ type Event = {
   date?: string;
   icon?: string;
   color?: string;
+  description?: string;
+  skills?: string;
 };
 @Component({
   selector: 'app-timeline',
@@ -37,6 +39,8 @@ export class TimelineComponent {
         date: 'Depuis juin  2021',
         icon: ICON.work.icon,
         color: ICON.work.color,
+        description: 'Conception ',
+        skills: 'Angular, rxjs, clean archi',
       },
       {
         titre1: 'École O’Clock',
@@ -45,6 +49,7 @@ export class TimelineComponent {
         date: '2020 (6 mois)',
         icon: ICON.school.icon,
         color: ICON.school.color,
+        description: 'bla bla formation',
       },
       {
         titre1: 'Odéis',
@@ -53,6 +58,53 @@ export class TimelineComponent {
         date: '2016 - 2021',
         icon: ICON.work.icon,
         color: ICON.work.color,
+        description: "Prise d'appels, testing, installations, formations",
+      },
+      {
+        titre1: 'Auto-entrepreneur',
+        titre2: 'Vannes',
+        titre3: 'Technicien',
+        date: '2014 - 2016',
+        icon: ICON.work.icon,
+        color: ICON.work.color,
+        description: 'Formation, installations, dépannages',
+      },
+      {
+        titre1: 'GlobalSOFT',
+        titre2: 'Montpellier',
+        titre3: 'Technicien',
+        date: '2009 - 2014',
+        icon: ICON.work.icon,
+        color: ICON.work.color,
+        description:
+          'Formation, installations, dépannages, sav, gestion commerciale',
+      },
+      {
+        titre1: 'IBM',
+        titre2: 'Montpellier',
+        titre3: 'Technicien',
+        date: '2008 (3 mois)',
+        icon: ICON.work.icon,
+        color: ICON.work.color,
+      },
+      {
+        titre1: 'Lycée Dhuoda',
+        titre2: 'Nîmes',
+        titre3: 'BTS IRIS',
+        date: '2006 -2008',
+        icon: ICON.school.icon,
+        color: ICON.school.color,
+        description:
+          'Informatique et réseaux pour l’industrie et les services techniques',
+      },
+      {
+        titre1: 'Lycée Champollion',
+        titre2: 'Montpellier',
+        titre3: 'Bac STI',
+        date: '2004 - 2006',
+        icon: ICON.school.icon,
+        color: ICON.school.color,
+        description: 'Génie électronique',
       },
     ];
   }

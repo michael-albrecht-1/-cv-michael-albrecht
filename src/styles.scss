@@ -38,6 +38,10 @@ h3 {
   font-weight: 8 00;
   font-size: 1rem;
   text-transform: uppercase;
+  display: flex;
+  .pi {
+    margin-right: 0.6rem;
+  }
 }
 
 p-timeline {
