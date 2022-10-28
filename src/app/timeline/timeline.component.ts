@@ -28,10 +28,11 @@ type Event = {
   styleUrls: ['./timeline.component.scss'],
 })
 export class TimelineComponent {
-  events!: Event[];
+  works!: Event[];
+  formations!: Event[];
 
   ngOnInit() {
-    this.events = [
+    this.works = [
       {
         titre1: 'Odéis',
         titre2: 'Vannes',
@@ -39,18 +40,9 @@ export class TimelineComponent {
         date: 'Depuis juin  2021',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description: 'Conception ',
-        skills: 'Angular, rxjs, clean archi',
-      },
-      {
-        titre1: 'École O’Clock',
-        titre2: 'remote',
-        titre3: 'Développeur Web',
-        date: '2020 (6 mois)',
-        icon: ICON.school.icon,
-        color: ICON.school.color,
         description:
-          'Formation en téléprésentiel portant sur le développement front-end et back-end. Spécialité React.',
+          "Conception d'une application de gestion de point de vente.",
+        skills: 'Angular, rxjs, clean archi, scrum',
       },
       {
         titre1: 'Odéis',
@@ -88,6 +80,20 @@ export class TimelineComponent {
         icon: ICON.work.icon,
         color: ICON.work.color,
       },
+    ];
+
+    this.formations = [
+      {
+        titre1: 'École O’Clock',
+        titre2: 'remote',
+        titre3: 'Développeur Web',
+        date: '2020 (6 mois)',
+        icon: ICON.school.icon,
+        color: ICON.school.color,
+        description:
+          'Formation en téléprésentiel portant sur le développement front-end et back-end. Spécialité React.',
+      },
+
       {
         titre1: 'Lycée Dhuoda',
         titre2: 'Nîmes',

@@ -12,35 +12,39 @@ export class SkillsComponent {
   skills: Skill[] = [
     {
       label: 'JS',
-      percent: 70,
+      percent: 75,
     },
     {
       label: 'HTML/CSS',
-      percent: 80,
+      percent: 75,
     },
     {
       label: 'Angular',
-      percent: 80,
-    },
-    {
-      label: 'RXJS',
-      percent: 90,
+      percent: 75,
     },
     {
       label: 'React',
       percent: 50,
     },
     {
+      label: 'RXJS',
+      percent: 75,
+    },
+    {
       label: 'Redux',
       percent: 50,
     },
     {
+      label: 'UI/UX',
+      percent: 75,
+    },
+    {
       label: 'Clean archi',
-      percent: 60,
+      percent: 75,
     },
     {
       label: 'DDD',
-      percent: 30,
+      percent: 25,
     },
     {
       label: 'Git',

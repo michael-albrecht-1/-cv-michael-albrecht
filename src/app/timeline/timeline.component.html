@@ -1,37 +1,82 @@
 <div class="timeline">
-  <h3>Expériences</h3>
-  <p-timeline
-    [value]="events"
-    align="alternate"
-    styleClass="customized-timeline"
-  >
-    <ng-template pTemplate="marker" let-event>
-      <span
-        class="custom-marker shadow-2"
-        [style.backgroundColor]="event.color"
-      >
-        <i [ngClass]="event.icon"></i>
-      </span>
-    </ng-template>
-    <ng-template pTemplate="content" let-event>
-      <p-card>
-        <ng-template pTemplate="header">
-          <div class="event-title">
-            <span class="event-title-1"> {{ event.titre1 }} </span>
+  <div class="timeline-works">
+    <h3>Expériences</h3>
+    <p-timeline
+      [value]="works"
+      align="alternate"
+      styleClass="customized-timeline"
+    >
+      <ng-template pTemplate="marker" let-event>
+        <span
+          class="custom-marker shadow-2"
+          [style.backgroundColor]="event.color"
+        >
+          <i [ngClass]="event.icon"></i>
+        </span>
+      </ng-template>
+      <ng-template pTemplate="content" let-event>
+        <p-card>
+          <ng-template pTemplate="header">
+            <div class="event-title">
+              <span class="event-title-1"> {{ event.titre1 }} </span>
 
-            <span class="event-title-3"> - {{ event.titre3 }} </span>
-          </div>
-          <div class="event-subtitle">
-            {{ event.date }}
-          </div>
-        </ng-template>
-        <ng-template pTemplate="body" *ngIf="event.description || event.skills">
-          <p *ngIf="event.description" class="event-body">
-            {{ event.description }}
-          </p>
-          <p *ngIf="event.skills" class="event-skills">{{ event.skills }}</p>
-        </ng-template>
-      </p-card>
-    </ng-template>
-  </p-timeline>
+              <span class="event-title-3"> - {{ event.titre3 }} </span>
+            </div>
+            <div class="event-subtitle">
+              {{ event.date }}
+            </div>
+          </ng-template>
+          <ng-template
+            pTemplate="body"
+            *ngIf="event.description || event.skills"
+          >
+            <p *ngIf="event.description" class="event-body">
+              {{ event.description }}
+            </p>
+            <p *ngIf="event.skills" class="event-skills">{{ event.skills }}</p>
+          </ng-template>
+        </p-card>
+      </ng-template>
+    </p-timeline>
+  </div>
+  <div>
+    <h3>Formations</h3>
+    <p-timeline
+      [value]="formations"
+      align="alternate"
+      styleClass="customized-timeline"
+    >
+      <ng-template pTemplate="marker" let-event>
+        <span
+          class="custom-marker shadow-2"
+          [style.backgroundColor]="event.color"
+        >
+          <i [ngClass]="event.icon"></i>
+        </span>
+      </ng-template>
+      <ng-template pTemplate="content" let-event>
+        <p-card>
+          <ng-template pTemplate="header">
+            <div class="event-title">
+              <span class="event-title-1"> {{ event.titre1 }} </span>
+
+              <span class="event-title-3"> - {{ event.titre3 }} </span>
+            </div>
+            <div class="event-subtitle">
+              {{ event.date }}
+            </div>
+          </ng-template>
+          <ng-template
+            pTemplate="body"
+            *ngIf="event.description || event.skills"
+          >
+            <p *ngIf="event.description" class="event-body">
+              {{ event.description }}
+            </p>
+            <p *ngIf="event.skills" class="event-skills">{{ event.skills }}</p>
+          </ng-template>
+        </p-card>
+      </ng-template>
+    </p-timeline>
+  </div>
 </div>
