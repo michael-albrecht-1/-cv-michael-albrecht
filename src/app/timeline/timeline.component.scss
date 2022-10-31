@@ -1,14 +1,6 @@
 .timeline {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 100%;
-  width: 100%;
-  > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  // width: 100%;
 
   &-works {
     margin: 2rem 0 4rem;
@@ -50,6 +42,15 @@
       line-height: 12px;
       font-weight: 2 00;
     }
+    &-bullets {
+      font-size: 12px;
+      font-weight: 2 00;
+      color: var(--primary);
+      li {
+        list-style: circle;
+        margin-bottom: 0.3rem;
+      }
+    }
   }
 
   .custom-marker {
@@ -61,42 +62,5 @@
     color: #ffffff;
     border-radius: 50%;
     z-index: 1;
-  }
-
-  .p-timeline-event-content,
-  div.p-timeline-event-content {
-    width: 15rem;
-  }
-  p-timeline-event-separator {
-    width: 2px !important;
-  }
-
-  ::ng-deep {
-    .p-timeline-event-content,
-    .p-timeline-event-opposite {
-      line-height: 1;
-    }
-  }
-
-  @media screen and (max-width: 960px) {
-    ::ng-deep {
-      .customized-timeline {
-        .p-timeline-event:nth-child(even) {
-          flex-direction: row !important;
-
-          .p-timeline-event-content {
-            text-align: left !important;
-          }
-        }
-
-        .p-timeline-event-opposite {
-          flex: 0;
-        }
-
-        .p-card {
-          margin-top: 1rem;
-        }
-      }
-    }
   }
 }

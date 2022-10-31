@@ -10,7 +10,6 @@ body {
 :root {
   --primary: #6699cc;
   --secondary: #474973;
-  // --secondary: #14213d;
   --light: #f6e8ea;
   --lightLight: #f6e8eac2;
   --yellow: #ffc600;
@@ -63,7 +62,7 @@ h4 {
 }
 
 ul {
-  padding-left: 1.7rem;
+  padding-left: 0.6rem;
   margin-top: 0.5rem;
   li {
     list-style: none;
@@ -85,4 +84,11 @@ p-timeline {
 .p-timeline-event-opposite,
 .p-timeline-event-content {
   padding: 0 2rem !important;
+}
+.p-timeline-event-opposite {
+  display: none;
+}
+
+.p-timeline-event-content {
+  margin: 0 2rem 1rem;
 }
