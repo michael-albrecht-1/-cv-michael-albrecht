@@ -20,7 +20,7 @@ type Event = {
   icon?: string;
   color?: string;
   description?: string;
-  skills?: string;
+  tasks?: string[];
 };
 @Component({
   selector: 'app-timeline',
@@ -36,13 +36,16 @@ export class TimelineComponent {
       {
         titre1: 'Odéis',
         titre2: 'Vannes',
-        titre3: 'Développeur Web',
+        titre3: 'Développeur Front End',
         date: 'Depuis juin  2021',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description:
-          "Conception d'une application de gestion de point de vente.",
-        skills: 'Angular, rxjs, clean archi, scrum',
+        description: "Conception d'un ERP pour les bijoutiers et horlogers.",
+        tasks: [
+          'participation aux réflexions techniques et métier',
+          "développement de l'application angular",
+          '',
+        ],
       },
       {
         titre1: 'Odéis',

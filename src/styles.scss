@@ -82,3 +82,7 @@ p-timeline {
   width: 2px !important;
   background-color: var(--primary);
 }
+.p-timeline-event-opposite,
+.p-timeline-event-content {
+  padding: 0 2rem !important;
+}

@@ -43,6 +43,10 @@ export class SkillsComponent {
       percent: 75,
     },
     {
+      label: 'TDD',
+      percent: 75,
+    },
+    {
       label: 'DDD',
       percent: 25,
     },
