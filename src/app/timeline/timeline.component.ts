@@ -20,7 +20,7 @@ type Event = {
   icon?: string;
   color?: string;
   description?: string;
-  skills?: string;
+  bullets?: string[];
 };
 @Component({
   selector: 'app-timeline',
@@ -41,8 +41,12 @@ export class TimelineComponent {
         icon: ICON.work.icon,
         color: ICON.work.color,
         description:
-          "Conception d'une application de gestion de point de vente.",
-        skills: 'Angular, rxjs, clean archi, scrum',
+          "Conception en agilité d'une application from scratch de gestion de point de vente.",
+        bullets: [
+          'participation aux réflextions techniques et métier',
+          "mise en place d'une stratégie de tests",
+          "mise en place d'une clean architecture",
+        ],
       },
       {
         titre1: 'Odéis',
@@ -86,7 +90,7 @@ export class TimelineComponent {
       {
         titre1: 'École O’Clock',
         titre2: 'remote',
-        titre3: 'Développeur Web',
+        titre3: 'Formation développeur Web',
         date: '2020 (6 mois)',
         icon: ICON.school.icon,
         color: ICON.school.color,
@@ -97,12 +101,11 @@ export class TimelineComponent {
       {
         titre1: 'Lycée Dhuoda',
         titre2: 'Nîmes',
-        titre3: 'BTS IRIS',
+        titre3:
+          'BTS Informatique et réseaux pour l’industrie et les services techniques',
         date: '2006 -2008',
         icon: ICON.school.icon,
         color: ICON.school.color,
-        description:
-          'Informatique et réseaux pour l’industrie et les services techniques',
       },
       // {
       //   titre1: 'Lycée Champollion',

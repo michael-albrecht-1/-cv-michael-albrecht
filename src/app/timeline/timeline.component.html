@@ -24,12 +24,16 @@
           </ng-template>
           <ng-template
             pTemplate="body"
-            *ngIf="event.description || event.skills"
+            *ngIf="event.description || event.bullets"
           >
             <p *ngIf="event.description" class="event-body">
               {{ event.description }}
             </p>
-            <p *ngIf="event.skills" class="event-skills">{{ event.skills }}</p>
+            <ul *ngIf="event.bullets" class="event-bullets">
+              <li *ngFor="let bullet of event.bullets">
+                {{ bullet }}
+              </li>
+            </ul>
           </ng-template>
         </p-card>
       </ng-template>
@@ -37,11 +41,7 @@
   </div>
   <div>
     <h3>Formations</h3>
-    <p-timeline
-      [value]="formations"
-      align="alternate"
-      styleClass="customized-timeline"
-    >
+    <p-timeline [value]="formations" styleClass="customized-timeline">
       <ng-template pTemplate="marker" let-event>
         <span
           class="custom-marker shadow-2"

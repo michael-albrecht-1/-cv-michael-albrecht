@@ -39,11 +39,11 @@ export class SkillsComponent {
       percent: 75,
     },
     {
-      label: 'Clean archi',
+      label: 'Clean architecture',
       percent: 75,
     },
     {
-      label: 'Software craftmanship',
+      label: 'Software craftsmanship',
       percent: 75,
     },
     {
