@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
-import { HobbiesComponent } from './hobbies/hobbies.component';
 import { SkillProgressionComponent } from './skill-progression/skill-progression.component';
 
 @NgModule({
@@ -16,7 +15,6 @@ import { SkillProgressionComponent } from './skill-progression/skill-progression
     TimelineComponent,
     ContactComponent,
     SkillsComponent,
-    HobbiesComponent,
     SkillProgressionComponent,
   ],
   imports: [BrowserModule, TimelineModule, CardModule],

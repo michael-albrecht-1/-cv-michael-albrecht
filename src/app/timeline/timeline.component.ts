@@ -72,14 +72,14 @@ export class TimelineComponent {
         description:
           'Formation, installations, dépannages, sav, gestion commerciale',
       },
-      {
-        titre1: 'IBM',
-        titre2: 'Montpellier',
-        titre3: 'Technicien',
-        date: '2008 (3 mois)',
-        icon: ICON.work.icon,
-        color: ICON.work.color,
-      },
+      // {
+      //   titre1: 'IBM',
+      //   titre2: 'Montpellier',
+      //   titre3: 'Technicien',
+      //   date: '2008 (3 mois)',
+      //   icon: ICON.work.icon,
+      //   color: ICON.work.color,
+      // },
     ];
 
     this.formations = [
@@ -104,15 +104,15 @@ export class TimelineComponent {
         description:
           'Informatique et réseaux pour l’industrie et les services techniques',
       },
-      {
-        titre1: 'Lycée Champollion',
-        titre2: 'Montpellier',
-        titre3: 'Bac STI',
-        date: '2004 - 2006',
-        icon: ICON.school.icon,
-        color: ICON.school.color,
-        description: 'Génie électronique',
-      },
+      // {
+      //   titre1: 'Lycée Champollion',
+      //   titre2: 'Montpellier',
+      //   titre3: 'Bac STI',
+      //   date: '2004 - 2006',
+      //   icon: ICON.school.icon,
+      //   color: ICON.school.color,
+      //   description: 'Génie électronique',
+      // },
     ];
   }
 }

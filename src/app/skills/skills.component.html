@@ -1,22 +1,24 @@
 <div class="skills">
-  <h3><i class="pi pi-palette"></i>compétences</h3>
-  <div class="skills-hard">
-    <h4>Techniques</h4>
-    <ul>
-      <li *ngFor="let skill of skills">
-        {{ skill.label }}
-        <app-skill-progression
-          [percent]="skill.percent"
-        ></app-skill-progression>
-      </li>
-    </ul>
-  </div>
-  <div class="skills-soft">
-    <h4>Qualités</h4>
-    <ul>
-      <li>Adaptabilité</li>
-      <li>Travail d'équipe</li>
-      <li>Rigueur</li>
-    </ul>
-  </div>
+  <h3><i class="pi pi-palette"></i>Hard skills</h3>
+  <ul>
+    <li *ngFor="let skill of skills">
+      {{ skill.label }}
+      <app-skill-progression [percent]="skill.percent"></app-skill-progression>
+    </li>
+  </ul>
+
+  <h3><i class="pi pi-palette"></i>Soft skills</h3>
+  <ul>
+    <li>Adaptabilité</li>
+    <li>Travail d'équipe</li>
+    <li>Rigueur</li>
+  </ul>
+
+  <h3><i class="pi pi-send"></i>Intérêts</h3>
+  <ul>
+    <li>Vie familiale</li>
+    <li>Bricolage, jardinage</li>
+    <li>Musique</li>
+    <li>Gaming, mangas</li>
+  </ul>
 </div>

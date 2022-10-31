@@ -1,20 +1,13 @@
 .skills {
-  margin-bottom: 3rem;
   padding: 1.5rem;
 
-  h4 {
-    padding-left: 1.7rem;
+  ul {
+    margin-bottom: 3rem;
   }
 
   li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  &-hard {
-  }
-
-  &-soft {
   }
 }

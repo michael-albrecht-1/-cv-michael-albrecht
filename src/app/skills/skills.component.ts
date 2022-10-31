@@ -43,6 +43,10 @@ export class SkillsComponent {
       percent: 75,
     },
     {
+      label: 'Software craftmanship',
+      percent: 75,
+    },
+    {
       label: 'DDD',
       percent: 25,
     },
