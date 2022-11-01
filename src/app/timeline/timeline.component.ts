@@ -34,7 +34,7 @@ export class TimelineComponent {
   ngOnInit() {
     this.works = [
       {
-        titre1: 'Odéis',
+        titre1: 'Odeis',
         titre2: 'Vannes',
         titre3: 'Développeur Front End',
         date: 'Depuis juin  2021',
@@ -43,14 +43,16 @@ export class TimelineComponent {
         description:
           "Conception en agilité d'une application from scratch de gestion de point de vente.",
         bullets: [
-          'participation aux réflextions techniques et métier',
+          "co-animation d'ateliers avec un panel de clients pour recueillir leur besoins et faire tester la solution",
+          "développement de l'application Angular",
+          'mise en place de bonnes pratiques : code review, sprint review, tbd',
           "mise en place d'une stratégie de tests",
-          "mise en place d'une clean architecture",
-          "développement de l'application angular",
+          "animation d'atelier sur la Clean Architecture et implémentation",
+          'formations de collègues sur rxjs, tests/tdd',
         ],
       },
       {
-        titre1: 'Odéis',
+        titre1: 'Odeis',
         titre2: 'Vannes',
         titre3: 'Technicien Support',
         date: '2016 - 2021',
@@ -96,7 +98,11 @@ export class TimelineComponent {
         icon: ICON.school.icon,
         color: ICON.school.color,
         description:
-          'Formation en téléprésentiel portant sur le développement front-end et back-end. Spécialité React.',
+          'Formation en télé-présentiel portant sur le développement Front End et Back End',
+        bullets: [
+          'spécialité React, le 5e mois',
+          'projet de fin de formation, le 6e mois : https://www.youtube.com/watch?v=mQki_QvYDJ0&t=7679s',
+        ],
       },
 
       {

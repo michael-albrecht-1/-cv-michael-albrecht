@@ -1,6 +1,5 @@
 .timeline {
-  height: 100%;
-  // width: 100%;
+  padding-left: 2rem;
 
   &-works {
     margin: 2rem 0 4rem;
@@ -43,6 +42,7 @@
       font-weight: 2 00;
     }
     &-bullets {
+      padding-left: 2rem;
       font-size: 12px;
       font-weight: 2 00;
       color: var(--primary);

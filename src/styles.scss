@@ -29,6 +29,7 @@ body {
 h1 {
   font-weight: 600;
   margin-bottom: 0.2rem;
+  font-size: 1.7rem;
 }
 
 h2 {
@@ -74,17 +75,15 @@ ul {
   }
 }
 
-p-timeline {
+.p-timeline {
   width: 100%;
+  padding-left: 2rem;
 }
 .p-timeline-event-separator {
   width: 2px !important;
   background-color: var(--primary);
 }
-.p-timeline-event-opposite,
-.p-timeline-event-content {
-  padding: 0 2rem !important;
-}
+
 .p-timeline-event-opposite {
   display: none;
 }

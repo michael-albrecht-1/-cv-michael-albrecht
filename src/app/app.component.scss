@@ -11,10 +11,15 @@
     background-color: var(--secondary);
     color: var(--light);
     &-title {
+      display: flex;
+      justify-content: space-between;
       padding: 0.5rem;
       width: 70vw;
       & > div {
-        padding: 0 2rem;
+        padding-left: 2rem;
+      }
+      &-contact {
+        align-self: flex-end;
         display: flex;
         flex-direction: column;
         justify-content: center;
