@@ -45,7 +45,7 @@ export class TimelineComponent {
         bullets: [
           "co-animation d'ateliers avec un panel de clients pour recueillir leur besoins et faire tester la solution",
           "développement de l'application Angular",
-          'mise en place de bonnes pratiques : code review, sprint review',
+          'mise en place de bonnes pratiques : code review, sprint review, pair programming',
           "mise en place d'une stratégie de tests",
           "animation d'atelier sur la Clean Architecture et implémentation",
           'formations de collègues sur rxjs, tests/tdd',
