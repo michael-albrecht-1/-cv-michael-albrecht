@@ -34,10 +34,26 @@ export class TimelineComponent {
   ngOnInit() {
     this.works = [
       {
+        titre1: 'Moovance',
+        titre2: 'Full remote',
+        titre3: 'Développeur Back End',
+        date: 'Depuis avril 2023',
+        icon: ICON.work.icon,
+        color: ICON.work.color,
+        description:
+          "Conception d'une application mobile pour la mobilité durable.",
+        bullets: [
+          'développement des API REST (NestJS, Spring Boot)',
+          "développement / monitoring de l'infrastructure (Terraform, GCP)",
+          'animation SCRUM',
+          "tutorat d'un alternant",
+        ],
+      },
+      {
         titre1: 'Odeis',
         titre2: 'Vannes',
         titre3: 'Développeur Front End',
-        date: 'Depuis juin  2021',
+        date: '2021 - 2023',
         icon: ICON.work.icon,
         color: ICON.work.color,
         description:
