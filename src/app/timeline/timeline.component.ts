@@ -20,7 +20,7 @@ type Event = {
   icon?: string;
   color?: string;
   description?: string;
-  bullets?: string[];
+  bullets?: { text: string; skills: string[] }[];
 };
 @Component({
   selector: 'app-timeline',
@@ -43,10 +43,38 @@ export class TimelineComponent {
         description:
           "Conception d'une application mobile pour la mobilité durable.",
         bullets: [
-          'développement des API REST (NestJS, Spring Boot)',
-          "développement / monitoring de l'infrastructure (Terraform, GCP)",
-          'animation SCRUM',
-          "mentorat d'un alternant",
+          {
+            text: 'développement des API REST',
+            skills: ['NestJS', 'Spring Boot'],
+          },
+          {
+            text: 'contribution au développement frontend',
+            skills: ['Flutter'],
+          },
+          {
+            text: 'craftmanship',
+            skills: [],
+          },
+          // {
+          //   text: "développement et monitoring de l'infrastructure",
+          //   skills: ['Terraform', 'Google Cloud Platform'],
+          // },
+          {
+            text: "construction de l'infrastructure",
+            skills: ['Terraform'],
+          },
+          {
+            text: "monitoring de l'infrastructure du produit",
+            skills: ['GCP'],
+          },
+          {
+            text: 'animation SCRUM',
+            skills: [],
+          },
+          {
+            text: "mentorat d'un alternant",
+            skills: [],
+          },
         ],
       },
       {
@@ -60,10 +88,16 @@ export class TimelineComponent {
           "Conception en agilité d'une application from scratch de gestion de point de vente.",
         bullets: [
           // "co-animation d'ateliers avec un panel de clients pour recueillir leur besoins et faire tester la solution",
-          "développement de l'application Angular",
-          'mise en place de bonnes pratiques', // code review, tests, pair programming.
+          {
+            text: "développement de l'application web",
+            skills: ['Angular'],
+          },
+          {
+            text: 'mise en place de bonnes pratiques (code review, tests, pair programming)',
+            skills: [],
+          },
           // "mise en place d'une stratégie de tests",
-          "animation d'atelier",
+          { text: "animation d'atelier", skills: [] },
           //ateliers sur la Clean Architecture et implémentation (+atelier bdd)",
           //formations de collègues sur rxjs, tests/tdd',
         ],

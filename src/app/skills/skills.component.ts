@@ -11,17 +11,12 @@ type Skill = {
 export class SkillsComponent {
   skills: Skill[] = [
     {
-      label: 'Typescript',
+      label: 'Typescript / NestJS',
       percent: 90,
     },
     {
-      label: 'NestJS',
-      percent: 75,
-    },
-
-    {
       label: 'SQL',
-      percent: 75, 
+      percent: 75,
     },
     {
       label: 'Terraform',
@@ -40,10 +35,6 @@ export class SkillsComponent {
       percent: 75,
     },
     {
-      label: 'RXJS',
-      percent: 75,
-    },
-    {
       label: 'Clean architecture',
       percent: 75,
     },
@@ -52,27 +43,11 @@ export class SkillsComponent {
       percent: 75,
     },
     {
-      label: 'Flutter',
+      label: 'Angular / React / Flutter',
       percent: 50,
     },
     {
-      label: 'Angular',
-      percent: 50,
-    },
-    {
-      label: 'React',
-      percent: 50,
-    },
-    {
-      label: 'UI/UX',
-      percent: 50,
-    },
-    {
-      label: 'Spring Boot',
-      percent: 25,
-    },
-    {
-      label: 'Python',
+      label: 'Java / Python',
       percent: 25,
     },
   ];
