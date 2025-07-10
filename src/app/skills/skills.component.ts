@@ -21,7 +21,7 @@ export class SkillsComponent {
 
     {
       label: 'SQL',
-      percent: 75,
+      percent: 75, 
     },
     {
       label: 'Terraform',

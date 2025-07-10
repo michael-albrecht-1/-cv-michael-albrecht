@@ -46,7 +46,7 @@ export class TimelineComponent {
           'développement des API REST (NestJS, Spring Boot)',
           "développement / monitoring de l'infrastructure (Terraform, GCP)",
           'animation SCRUM',
-          "tutorat d'un alternant",
+          "mentorat d'un alternant",
         ],
       },
       {
@@ -59,12 +59,13 @@ export class TimelineComponent {
         description:
           "Conception en agilité d'une application from scratch de gestion de point de vente.",
         bullets: [
-          "co-animation d'ateliers avec un panel de clients pour recueillir leur besoins et faire tester la solution",
+          // "co-animation d'ateliers avec un panel de clients pour recueillir leur besoins et faire tester la solution",
           "développement de l'application Angular",
-          'mise en place de bonnes pratiques : code review, sprint review, pair programming',
-          "mise en place d'une stratégie de tests",
-          "animation d'atelier sur la Clean Architecture et implémentation",
-          'formations de collègues sur rxjs, tests/tdd',
+          'mise en place de bonnes pratiques', // code review, tests, pair programming.
+          // "mise en place d'une stratégie de tests",
+          "animation d'atelier",
+          //ateliers sur la Clean Architecture et implémentation (+atelier bdd)",
+          //formations de collègues sur rxjs, tests/tdd',
         ],
       },
       {
@@ -114,11 +115,11 @@ export class TimelineComponent {
         icon: ICON.school.icon,
         color: ICON.school.color,
         description:
-          'Formation en télé-présentiel portant sur le développement Front End et Back End',
-        bullets: [
-          'spécialité React, le 5e mois',
-          'projet de fin de formation, le 6e mois : https://www.youtube.com/watch?v=mQki_QvYDJ0&t=7679s',
-        ],
+          'Formation en télé-présentiel portant sur le développement Front End et Back End (spécialité React)',
+        // bullets: [
+        //   'spécialité React, le 5e mois',
+        //   'projet de fin de formation, le 6e mois : https://www.youtube.com/watch?v=mQki_QvYDJ0&t=7679s',
+        // ],
       },
 
       {
