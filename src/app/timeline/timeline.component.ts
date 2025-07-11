@@ -145,7 +145,7 @@ export class TimelineComponent {
         titre1: 'École O’Clock',
         titre2: 'remote',
         titre3: 'Formation développeur Web',
-        date: '2020 (6 mois)',
+        date: '2020 pendant 6 mois',
         icon: ICON.school.icon,
         color: ICON.school.color,
         description:

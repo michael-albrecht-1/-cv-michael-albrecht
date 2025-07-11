@@ -39,7 +39,7 @@ export class SkillsComponent {
       percent: 75,
     },
     {
-      label: 'Software craftsmanship',
+      label: 'Software craft',
       percent: 75,
     },
     {

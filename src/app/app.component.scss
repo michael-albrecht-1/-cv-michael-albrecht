@@ -13,16 +13,17 @@
     &-title {
       display: flex;
       justify-content: space-between;
-      padding: 0.5rem;
-      width: 70vw;
+      padding: 0rem;
+      width: 75vw;
       & > div {
         padding-left: 2rem;
-      }
-      &-contact {
-        align-self: flex-end;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        p {
+          margin-top: 1rem;
+          margin-right: 0.8rem;
+          font-size: 12px;
+          letter-spacing: 0.04rem;
+          color: var(--light);
+        }
       }
       h2 {
         margin-bottom: 0  ;
@@ -30,7 +31,7 @@
     }
     &-photo {
       padding: 0;
-      width: 30vw;
+      width: 25vw;
       img {
         object-fit: cover;
         width: 100%;
@@ -44,14 +45,36 @@
     width: 100vw;
     min-height: 60rem;
     &-left {
-      width: 70vw;
-      padding: 0.5rem;
+      width: 75vw;
+      padding: 0rem;
       background-color: var(--light);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     &-right {
-      width: 30vw;
+      width: 25vw;
       color: var(--light);
       background-color: var(--primary);
     }
+  }
+}
+
+@media print {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .cv {
+    width: 100% !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .main {
+    min-height: auto !important;
+    height: calc(100vh - 10rem) !important;
   }
 }
