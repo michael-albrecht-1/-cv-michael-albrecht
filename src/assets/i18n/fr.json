@@ -13,5 +13,20 @@
     "SOFT_SKILLS": "Soft Skills",
     "WATCH": "Veille du moment",
     "INTERESTS": "Intérêts"
+  },
+  "SOFT_SKILLS": {
+    "ADAPTABILITY": "Adaptabilité",
+    "TEAMWORK": "Travail d'équipe",
+    "ATTENTION_TO_DETAIL": "Rigueur"
+  },
+  "WATCH": {
+    "READING": "Lecture livre \"software craft\"",
+    "CURSOR": "Utilisation avancée de Cursor"
+  },
+  "INTERESTS": {
+    "FAMILY": "Vie familiale",
+    "GAMING": "Gaming, mangas",
+    "HOBBY": "Bricolage, jardinage",
+    "MUSIC": "Musique, guitare"
   }
 }

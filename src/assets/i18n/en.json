@@ -13,5 +13,20 @@
     "SOFT_SKILLS": "Soft Skills",
     "WATCH": "Current technology watch",
     "INTERESTS": "Interests"
+  },
+  "SOFT_SKILLS": {
+    "ADAPTABILITY": "Adaptability",
+    "TEAMWORK": "Teamwork",
+    "ATTENTION_TO_DETAIL": "Attention to detail"
+  },
+  "WATCH": {
+    "READING": "Reading book \"software craft\"",
+    "CURSOR": "Advanced use of Cursor"
+  },
+  "INTERESTS": {
+    "FAMILY": "Family life",
+    "GAMING": "Gaming, mangas",
+    "HOBBY": "Hobby",
+    "MUSIC": "Music, guitar"
   }
 }
