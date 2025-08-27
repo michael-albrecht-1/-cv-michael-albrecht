@@ -4,15 +4,14 @@
     "SUBTITLE": "Développeur Backend Full Remote",
     "DESCRIPTION": "Passionate about creating high-quality code, I want to join a team where cohesion is the key to success."
   },
-  "SKILLS": {
-    "TITLE": "Skills",
-    "PROGRAMMING_LANGUAGES": "Programming Languages",
-    "FRAMEWORKS": "Frameworks & Libraries",
-    "TOOLS": "Tools & Technologies",
-    "LANGUAGES": "Languages"
-  },
   "TIMELINE": {
-    "WORK": "Experience",
+    "WORK": "Work",
     "EDUCATION": "Education"
+  },
+  "SKILLS": {
+    "HARD_SKILLS": "Hard Skills",
+    "SOFT_SKILLS": "Soft Skills",
+    "WATCH": "Current technology watch",
+    "INTERESTS": "Interests"
   }
 }

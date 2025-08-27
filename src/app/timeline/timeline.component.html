@@ -1,6 +1,6 @@
 <div class="timeline">
   <div class="timeline-works">
-    <h3>Expériences</h3>
+    <h3>{{ "TIMELINE.WORK" | translate }}</h3>
     <p-timeline [value]="works">
       <ng-template pTemplate="marker" let-event>
         <span
@@ -44,7 +44,7 @@
     </p-timeline>
   </div>
   <div>
-    <h3>Formations</h3>
+    <h3>{{ "TIMELINE.EDUCATION" | translate }}</h3>
     <p-timeline [value]="formations">
       <ng-template pTemplate="marker" let-event>
         <span
