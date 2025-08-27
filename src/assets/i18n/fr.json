@@ -1,0 +1,18 @@
+{
+  "HEADER": {
+    "TITLE": "Michael Albrecht",
+    "SUBTITLE": "Développeur Backend Full Remote",
+    "DESCRIPTION": "Passionné par la conception de code de qualité, je souhaite rejoindre une équipe où la cohésion est la clé de la réussite."
+  },
+  "SKILLS": {
+    "TITLE": "Compétences",
+    "PROGRAMMING_LANGUAGES": "Langages de Programmation",
+    "FRAMEWORKS": "Frameworks & Bibliothèques",
+    "TOOLS": "Outils & Technologies",
+    "LANGUAGES": "Langues"
+  },
+  "TIMELINE": {
+    "WORK": "Expérience",
+    "EDUCATION": "Formations"
+  }
+}
