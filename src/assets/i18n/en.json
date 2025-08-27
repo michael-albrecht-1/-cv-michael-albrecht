@@ -28,5 +28,63 @@
     "GAMING": "Gaming, mangas",
     "HOBBY": "Hobby",
     "MUSIC": "Music, guitar"
+  },
+  "MOOVANCE": {
+    "TITLE1": "Moovance",
+    "TITLE2": "Full remote",
+    "TITLE3": "Backend Developer",
+    "DATE": "Since April 2023",
+    "DESCRIPTION": "Design of a mobile application for sustainable mobility.",
+    "MISSION1": "development of REST APIs",
+    "MISSION2": "contribution to the frontend development",
+    "MISSION3": "craftmanship",
+    "MISSION4": "construction of the infrastructure",
+    "MISSION5": "monitoring of the product's infrastructure",
+    "MISSION6": "SCRUM animation",
+    "MISSION7": "mentoring of an intern"
+  },
+  "ODEIS": {
+    "TITLE1": "Odeis",
+    "TITLE2": "Vannes",
+    "TITLE3": "Frontend Developer",
+    "DATE": "2021 - 2023",
+    "DESCRIPTION": "Design of a point of sale application from scratch.",
+    "MISSION1": "development of the application",
+    "MISSION2": "implementation of good practices (code review, tests, pair programming)",
+    "MISSION3": "animation of workshops"
+  },
+  "ODEIS_TECH": {
+    "TITLE1": "Odeis",
+    "TITLE2": "Vannes",
+    "TITLE3": "Technician",
+    "DATE": "2016 - 2021",
+    "DESCRIPTION": "Taking calls, testing, installations, courses"
+  },
+  "INDEPENDENT": {
+    "TITLE1": "Independent",
+    "TITLE2": "Vannes",
+    "TITLE3": "Technician",
+    "DATE": "2014 - 2016",
+    "DESCRIPTION": "Courses, installations, repairs"
+  },
+  "GLOBALSOFT": {
+    "TITLE1": "GlobalSOFT",
+    "TITLE2": "Montpellier",
+    "TITLE3": "Technician",
+    "DATE": "2009 - 2014",
+    "DESCRIPTION": "Courses, installations, repairs, sav, commercial management"
+  },
+  "OCLOCK": {
+    "TITLE1": "O'Clock",
+    "TITLE2": "remote",
+    "TITLE3": "Web Developer program",
+    "DATE": "6 months in 2020",
+    "DESCRIPTION": "Learning in tele-presence on the development of Front End and Back End (speciality React)"
+  },
+  "DHUODA": {
+    "TITLE1": "Dhuoda",
+    "TITLE2": "Nîmes",
+    "TITLE3": "BTS Computer Science and networks for industry and services",
+    "DATE": "2006 -2008"
   }
 }

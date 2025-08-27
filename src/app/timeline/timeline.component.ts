@@ -34,25 +34,24 @@ export class TimelineComponent {
   ngOnInit() {
     this.works = [
       {
-        titre1: 'Moovance',
-        titre2: 'Full remote',
-        titre3: 'Développeur Back End',
-        date: 'Depuis avril 2023',
+        titre1: 'MOOVANCE.TITLE1',
+        titre2: 'MOOVANCE.TITLE2',
+        titre3: 'MOOVANCE.TITLE3',
+        date: 'MOOVANCE.DATE',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description:
-          "Conception d'une application mobile pour la mobilité durable.",
+        description: 'MOOVANCE.DESCRIPTION',
         bullets: [
           {
-            text: 'développement des API REST',
+            text: 'MOOVANCE.MISSION1',
             skills: ['NestJS', 'Spring Boot'],
           },
           {
-            text: 'contribution au développement frontend',
+            text: 'MOOVANCE.MISSION2',
             skills: ['Flutter'],
           },
           {
-            text: 'craftmanship',
+            text: 'MOOVANCE.MISSION3',
             skills: [],
           },
           // {
@@ -60,75 +59,73 @@ export class TimelineComponent {
           //   skills: ['Terraform', 'Google Cloud Platform'],
           // },
           {
-            text: "construction de l'infrastructure",
+            text: 'MOOVANCE.MISSION4',
             skills: ['Terraform'],
           },
           {
-            text: "monitoring de l'infrastructure du produit",
+            text: 'MOOVANCE.MISSION5',
             skills: ['GCP'],
           },
           {
-            text: 'animation SCRUM',
+            text: 'MOOVANCE.MISSION6',
             skills: [],
           },
           {
-            text: "mentorat d'un alternant",
+            text: 'MOOVANCE.MISSION7',
             skills: [],
           },
         ],
       },
       {
-        titre1: 'Odeis',
-        titre2: 'Vannes',
-        titre3: 'Développeur Front End',
-        date: '2021 - 2023',
+        titre1: 'ODEIS.TITLE1',
+        titre2: 'ODEIS.TITLE2',
+        titre3: 'ODEIS.TITLE3',
+        date: 'ODEIS.DATE',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description:
-          "Conception en agilité d'une application from scratch de gestion de point de vente.",
+        description: 'ODEIS.DESCRIPTION',
         bullets: [
           // "co-animation d'ateliers avec un panel de clients pour recueillir leur besoins et faire tester la solution",
           {
-            text: "développement de l'application web",
+            text: 'ODEIS.MISSION1',
             skills: ['Angular'],
           },
           {
-            text: 'mise en place de bonnes pratiques (code review, tests, pair programming)',
+            text: 'ODEIS.MISSION2',
             skills: [],
           },
           // "mise en place d'une stratégie de tests",
-          { text: "animation d'atelier", skills: [] },
+          { text: 'ODEIS.MISSION3', skills: [] },
           //ateliers sur la Clean Architecture et implémentation (+atelier bdd)",
           //formations de collègues sur rxjs, tests/tdd',
         ],
       },
       {
-        titre1: 'Odeis',
-        titre2: 'Vannes',
-        titre3: 'Technicien Support',
-        date: '2016 - 2021',
+        titre1: 'ODEIS_TECH.TITLE1',
+        titre2: 'ODEIS_TECH.TITLE2',
+        titre3: 'ODEIS_TECH.TITLE3',
+        date: 'ODEIS_TECH.DATE',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description: "Prise d'appels, testing, installations, formations",
+        description: 'ODEIS_TECH.DESCRIPTION',
       },
       {
-        titre1: 'Auto-entrepreneur',
-        titre2: 'Vannes',
-        titre3: 'Technicien',
-        date: '2014 - 2016',
+        titre1: 'INDEPENDENT.TITLE1',
+        titre2: 'INDEPENDENT.TITLE2',
+        titre3: 'INDEPENDENT.TITLE3',
+        date: 'INDEPENDENT.DATE',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description: 'Formation, installations, dépannages',
+        description: 'INDEPENDENT.DESCRIPTION',
       },
       {
-        titre1: 'GlobalSOFT',
-        titre2: 'Montpellier',
-        titre3: 'Technicien',
-        date: '2009 - 2014',
+        titre1: 'GLOBALSOFT.TITLE1',
+        titre2: 'GLOBALSOFT.TITLE2',
+        titre3: 'GLOBALSOFT.TITLE3',
+        date: 'GLOBALSOFT.DATE',
         icon: ICON.work.icon,
         color: ICON.work.color,
-        description:
-          'Formation, installations, dépannages, sav, gestion commerciale',
+        description: 'GLOBALSOFT.DESCRIPTION',
       },
       // {
       //   titre1: 'IBM',
@@ -142,14 +139,13 @@ export class TimelineComponent {
 
     this.formations = [
       {
-        titre1: 'École O’Clock',
-        titre2: 'remote',
-        titre3: 'Formation développeur Web',
-        date: '2020 pendant 6 mois',
+        titre1: 'OCLOCK.TITLE1',
+        titre2: 'OCLOCK.TITLE2',
+        titre3: 'OCLOCK.TITLE3',
+        date: 'OCLOCK.DATE',
         icon: ICON.school.icon,
         color: ICON.school.color,
-        description:
-          'Formation en télé-présentiel portant sur le développement Front End et Back End (spécialité React)',
+        description: 'OCLOCK.DESCRIPTION',
         // bullets: [
         //   'spécialité React, le 5e mois',
         //   'projet de fin de formation, le 6e mois : https://www.youtube.com/watch?v=mQki_QvYDJ0&t=7679s',
@@ -157,11 +153,10 @@ export class TimelineComponent {
       },
 
       {
-        titre1: 'Lycée Dhuoda',
-        titre2: 'Nîmes',
-        titre3:
-          'BTS Informatique et réseaux pour l’industrie et les services techniques',
-        date: '2006 -2008',
+        titre1: 'DHUODA.TITLE1',
+        titre2: 'DHUODA.TITLE2',
+        titre3: 'DHUODA.TITLE3',
+        date: 'DHUODA.DATE',
         icon: ICON.school.icon,
         color: ICON.school.color,
       },

@@ -28,5 +28,63 @@
     "GAMING": "Gaming, mangas",
     "HOBBY": "Bricolage, jardinage",
     "MUSIC": "Musique, guitare"
+  },
+  "MOOVANCE": {
+    "TITLE1": "Moovance",
+    "TITLE2": "Full remote",
+    "TITLE3": "Développeur Back End",
+    "DATE": "Depuis avril 2023",
+    "DESCRIPTION": "Conception d'une application mobile pour la mobilité durable.",
+    "MISSION1": "développement des API REST",
+    "MISSION2": "contribution au développement frontend",
+    "MISSION3": "craftmanship",
+    "MISSION4": "construction de l'infrastructure",
+    "MISSION5": "monitoring de l'infrastructure du produit",
+    "MISSION6": "animation SCRUM",
+    "MISSION7": "mentorat d'un alternant"
+  },
+  "ODEIS": {
+    "TITLE1": "Odeis",
+    "TITLE2": "Vannes",
+    "TITLE3": "Développeur Front End",
+    "DATE": "2021 - 2023",
+    "DESCRIPTION": "Conception en agilité d'une application from scratch de gestion de point de vente.",
+    "MISSION1": "développement de l'application web",
+    "MISSION2": "mise en place de bonnes pratiques (code review, tests, pair programming)",
+    "MISSION3": "animation d'atelier"
+  },
+  "ODEIS_TECH": {
+    "TITLE1": "Odeis",
+    "TITLE2": "Vannes",
+    "TITLE3": "Technicien Support",
+    "DATE": "2016 - 2021",
+    "DESCRIPTION": "Prise d'appels, testing, installations, formations"
+  },
+  "INDEPENDENT": {
+    "TITLE1": "Auto-entrepreneur",
+    "TITLE2": "Vannes",
+    "TITLE3": "Technicien",
+    "DATE": "2014 - 2016",
+    "DESCRIPTION": "Formation, installations, dépannages"
+  },
+  "GLOBALSOFT": {
+    "TITLE1": "GlobalSOFT",
+    "TITLE2": "Montpellier",
+    "TITLE3": "Technicien",
+    "DATE": "2009 - 2014",
+    "DESCRIPTION": "Formation, installations, dépannages, sav, gestion commerciale"
+  },
+  "OCLOCK": {
+    "TITLE1": "École O'Clock",
+    "TITLE2": "remote",
+    "TITLE3": "Formation développeur Web",
+    "DATE": "2020 pendant 6 mois",
+    "DESCRIPTION": "Formation en télé-présentiel portant sur le développement Front End et Back End (spécialité React)"
+  },
+  "DHUODA": {
+    "TITLE1": "Lycée Dhuoda",
+    "TITLE2": "Nîmes",
+    "TITLE3": "BTS Informatique et réseaux pour l’industrie et les services techniques",
+    "DATE": "2006 -2008"
   }
 }

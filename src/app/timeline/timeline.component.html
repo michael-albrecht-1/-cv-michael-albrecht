@@ -14,10 +14,16 @@
         <p-card>
           <ng-template pTemplate="header">
             <div class="event-title">
-              <span class="event-title-1"> {{ event.titre1 }} </span>
+              <span class="event-title-1">
+                {{ event.titre1 | translate }}
+              </span>
 
-              <span class="event-title-3"> - {{ event.titre3 }} </span>
-              <span class="event-title-4"> ({{ event.date }}) </span>
+              <span class="event-title-3">
+                - {{ event.titre3 | translate }}
+              </span>
+              <span class="event-title-4">
+                ({{ event.date | translate }})
+              </span>
             </div>
           </ng-template>
           <ng-template
@@ -25,11 +31,11 @@
             *ngIf="event.description || event.bullets"
           >
             <p *ngIf="event.description" class="event-body">
-              {{ event.description }}
+              {{ event.description | translate }}
             </p>
             <ul *ngIf="event.bullets" class="event-bullets">
               <li *ngFor="let bullet of event.bullets">
-                <span>{{ bullet.text }}</span>
+                <span>{{ bullet.text | translate }}</span>
                 <span
                   *ngFor="let skill of bullet.skills"
                   class="event-bullets-skill"
@@ -58,10 +64,16 @@
         <p-card>
           <ng-template pTemplate="header">
             <div class="event-title">
-              <span class="event-title-1"> {{ event.titre1 }} </span>
+              <span class="event-title-1">
+                {{ event.titre1 | translate }}
+              </span>
 
-              <span class="event-title-3"> - {{ event.titre3 }} </span>
-              <span class="event-title-4"> ({{ event.date }}) </span>
+              <span class="event-title-3">
+                - {{ event.titre3 | translate }}
+              </span>
+              <span class="event-title-4">
+                ({{ event.date | translate }})
+              </span>
             </div>
           </ng-template>
           <ng-template
@@ -69,11 +81,11 @@
             *ngIf="event.description || event.bullets"
           >
             <p *ngIf="event.description" class="event-body">
-              {{ event.description }}
+              {{ event.description | translate }}
             </p>
             <ul *ngIf="event.bullets" class="event-bullets">
               <li *ngFor="let bullet of event.bullets">
-                {{ bullet }}
+                {{ bullet.text | translate }}
               </li>
             </ul>
           </ng-template>
